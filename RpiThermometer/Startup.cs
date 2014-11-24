@@ -11,7 +11,7 @@ namespace RpiThermometer
     {
         public void Configuration(IAppBuilder app)
         {
-            app.UseWelcomePage();
+            app.UseNancy();
         }
     }
 }
